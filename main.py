@@ -2,9 +2,9 @@ import requests
 import os
 from twilio.rest import Client
 
-API_KEY = "c7c188e45319e9b89a3b38d619e4015c"
-LATITUDE = -7.531940
-LONGITUDE = 111.073051
+API_KEY = "YOUR API KEY"
+LATITUDE = "YOUR LATITUDE"
+LONGITUDE = "YOUR LONGITUDE"
 OWN_ENDPOINT = "https://api.openweathermap.org/data/2.5/onecall"
 
 weather_params = {
